@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+html, body{
+    width: 100%;
+}
+body{
+    background-image: url(../img/Fondomaderaclara3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.navegador{
+    background-image: linear-gradient(to right, rgb(100, 18, 18), rgb(161, 138, 103));
+    
+}
+li{
+    margin: 3rem;
+    
+}
+
+h1{
+    background-image: url(../img/fondoFrase.jpg);
+    margin-top: 10%;
+    padding: 3%;
+    border-style: double;
+    text-align: center ;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    }
+    .fraseprincipal{
+        margin-top: 5%;
+        background-size: auto;
+        min-height: 40vh;
+        position: relative;
+    }
+
+@media(max-width=768px){
+    .fraseprincipal{min-height: 30vh;}
+    h1{font-size: calc(1.525rem + 3.3vw);}
+}
+.boton{
+    margin-bottom: 10%;
+}
+.boton2{
+    width: 15%;
+    margin-top: 2%;
+}
+
+hr{
+    margin-top: 3%;
+    border-style: solid;
+    
+}
+
+.subtitulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tarjetas{
+    background-image: linear-gradient(to right, rgb(136, 106, 106), rgb(226, 210, 186));
+    
+}
+
+.frase2{
+    background-image: linear-gradient(to right, rgb(100, 18, 18), rgb(161, 138, 103));
+    width: 100%;
+}
+h4{
+    padding: 0 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(100, 18, 18), rgb(161, 138, 103));
+}
+.formulario{
+    background-image: url(../img/fondoFrase.jpg);
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+    padding: 3%;
+    border-radius: 1%;
+    border-style: double;
+    text-align: center ;
+    justify-content: center;
+}
+
+
